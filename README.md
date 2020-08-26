@@ -11,6 +11,12 @@ minimum of 1 to the maximum of 256.
 
 When the CloudFormation resource is deleted the StepConcurrencyLevel is set back to the default value of 1.
 
+## Usage
+
+View the [README](docs/README.md) for information about using the resource type.
+
+Deployment into the account is done via the [CloudFormation CLI](https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html) command `cfn submit`. See the page on [Registering Resource Providers](https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/resource-type-register.html) for more details.
+
 ## Testing
 
 When running `cfn test` to test the resource you will need a working EMR
